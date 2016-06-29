@@ -1791,7 +1791,7 @@ double cvStereoCalibrate( const CvMat* _objectPoints, const CvMat* _imagePoints1
                         int flags,
                         CvTermCriteria termCrit )
 {
-    const int NINTRINSIC = 18;
+    const int NINTRINSIC = 18;//
     Ptr<CvMat> npoints, err, J_LR, Je, Ji, imagePoints[2], objectPoints, RT0;
     double reprojErr = 0;
 
